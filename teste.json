@@ -1,0 +1,74 @@
+
+{
+    "intents": [
+        {
+            "tag": "saudacao",
+            "patterns": [
+                "Olá, tudo bom?", "Olá", "Bom dia", "Boa Tarde", "Boa Noite", "Oi"
+            ],
+            "responses": [
+                "Olá tudo bem? Eu sou o Chatbot Bayle, uma Maquina de Inteligência Artificial para o Ensino de Física. Qual é sua dúvida sobre física? Eu sei sobre Newton e Termodinâmica." 
+            ]
+        }, 
+        {
+            "tag": "semresposta",
+            "patterns": [],
+            "responses": [
+                "Não entendi", "Acho que essa eu não sei..."
+            ], 
+            "context": [""]
+        },
+        {
+            "tag": "fisica",
+            "patterns": [
+                "Física", "Defina Física", "O que é física? ", "Explique o que é Física"
+            ],
+            "responses": [
+                "Física é a ciência que investiga as leis do universo no que diz respeito à matéria e à energia, que são seus constituintes, e suas interações."
+            ], 
+            "context": [""]
+        },
+        {
+            "tag": "newton",
+            "patterns": [
+                "Quais são as 3 leis de Newton?", "Diga as 3 leis de Newton"
+            ],
+            "responses": [
+                "A Primeira Lei de Newton é chamada de Lei da Inércia. Todo corpo continua em seu estado de repouso ou de movimento uniforme em uma linha reta, a menos que seja forçado a mudar aquele estado por forças aplicadas sobre ele. A Segunda Lei de Newton, também conhecida como Lei da Superposição de Forças ou como Princípio Fundamental da Dinâmica, a mudança de movimento é proporcional à força motora imprimida e é produzida na direção de linha reta na qual aquela força é aplicada, aquela famosa formula F=m.a. E a terceira e última lei é Lei da Ação e Reação. Essa lei diz que todas as forças surgem aos pares: ao aplicarmos uma força sobre um corpo (ação), recebemos desse corpo a mesma força (reação), com mesmo módulo e na mesma direção, porém com sentido oposto."
+            ], 
+            "context": [""]
+        },
+        {
+            "tag": "newtonFormulas",
+            "patterns": [
+                "Fórmulas de Newton", "Quais as fórmulas de Newton?", "Diga as fórmulas de Newton"
+            ],
+            "responses": [
+                "Apesar de ser uma lei qualitativa a primeira lei pode ter a seguinte fómula: Fr=0->{v=0 ou v= constante. A segunda lei é a fómula: Fr=m.a, força é igual a massa vezes a aceleração! Por isso o Flash é 'forte' a força dele vem da velociade! A fómula da terceira lei é apresentam módulos e direções iguais, porém com sentidos opostos |Fr1,2| = -|Fr2,1|."
+            ], 
+            "context": [""]
+        },
+        {
+            "tag": "termodinamica",
+            "patterns": [ "O que é termodinâmica?", "Termodinâmica", "Diga o que é Termodinâmica", "o que é termodinâmica", "termodinâmica", "termodinamica", "Termodinâmica"
+            ],
+            "responses": [
+                "Termodinâmica é parte da Física que estuda as leis que regem as relações entre calor, trabalho e outras formas de energia, mais especificamente a transformação de um tipo de energia em outra, a disponibilidade de energia para a realização de trabalho e a direção das trocas de calor. Sim o frio não existe, frio é ausência de calor hihihi"
+            ], 
+            "context": [""]
+        },
+        {
+            "tag": "termodinamicaFormulas",
+            "patterns": [
+                "Quais as fómulas da Termodinâmica","Quais as fomulas da Termodinamica", "quais as fomulas da termodinamica",
+                "Fómulas da Termodinâmica", "fómulas da termodinâmica", "fomulas da termodinamica", "equações de termodinâmica",
+                "Equações de termodinâmica"
+            ],
+            "responses": [
+                "Temos a equação do trabalho (W=F.d), a equação da pressão (p=F/A), equação de Clapeyron (PV=nRT) e juntando tudo temos a equação W = p.deltaV, onde 'p' é a pressão do gás e 'deltaV' a variação do volume do gás."
+            ], 
+            "context": [""]
+        }
+
+    ]
+}
